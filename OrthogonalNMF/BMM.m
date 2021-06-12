@@ -1,7 +1,7 @@
 %% 
 % Let us consider ONMF problem: Given X and r, solve min 1/2 ||X-UV||^2 s.t U>=0, V>=0, VV'=I_r
 % BMM (that is, BMME without inertial) solves the penalized ONMF problem
-% Reference: DN Phan, LTK Hien, N Gillis, "Block Alternating Bregman Majorization Minimization 
+% Reference: DN Phan, LTK Hien, N Gillis, Masoud Ahookhosh, Panos Patrinos, "Block Alternating Bregman Majorization Minimization 
 % with Extrapolation"
 %
 %  Input:   X: the input data set
