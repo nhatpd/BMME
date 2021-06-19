@@ -1,3 +1,5 @@
+% CoCaIn for solving MCP
+% written by DN Phan
 function [output ] = CoCaIn( D, lam, theta, para )
 % D: sparse observed matrix
 
