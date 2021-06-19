@@ -1,3 +1,5 @@
+% BMME for solving MCP
+% written by DN Phan
 function [output ] = BMME( D, lam, theta, para )
 output.method = 'BMME';
 
