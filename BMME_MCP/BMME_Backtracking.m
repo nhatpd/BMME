@@ -1,3 +1,5 @@
+% BMME with backtracking for solving MCP
+% written by DN Phan
 function [output ] = BMME_Backtracking( D, lam, theta, para )
 output.method = 'BMME-backtracking';
 
