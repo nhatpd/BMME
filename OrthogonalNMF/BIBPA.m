@@ -1,7 +1,7 @@
 %%
 % ONMF problem: Given X and r, solve min 1/2 ||X-UV||^2 s.t U>=0, V>=0, VV'=I_r
 % vBPALM solves ONMF problem by using the following generating kernel
-% h(U,V)=alpha/2 ||U||^2 ||V||^2 + beta/2 ||V||^4 + epsilon_1/2 ||U||^2 +
+% h(U,V)=alpha/2 ||U||^2 ||V||^2 + beta/4 ||V||^4 + epsilon_1/2 ||U||^2 +
 % epsilon_2/2 ||V||^2
 % see AHOOKHOSH et al, "MULTI-BLOCK BREGMAN PROXIMAL ALTERNATING LINEARIZED
 % MINIMIZATION AND ITS APPLICATION TO SPARSE ORTHOGONAL NONNEGATIVE MATRIX FACTORIZATION",
