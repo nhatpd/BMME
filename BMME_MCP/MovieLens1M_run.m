@@ -37,7 +37,7 @@ for ii = 1:trials
     idx = randperm(length(val));
 
     train_Idx = idx(1:floor(length(val)*0.7));
-    test_Idx = idx(ceil(length(val)*0.3): end);
+    test_Idx = idx(ceil(length(val)*0.7): end);
 
     clear idx;
 
